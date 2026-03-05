@@ -14,4 +14,4 @@ def sdvig(arr, k):
     reverse(arr, k, n-1)
     return arr
 result = sdvig(arr, k)
-print("Результат после сдвига на {k}: {result}")
+print(f"Результат после сдвига на {k}: {result}")
