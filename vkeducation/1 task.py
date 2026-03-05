@@ -14,5 +14,4 @@ def sdvig(arr, k):
     reverse(arr, k, n-1)
     return arr
 result = sdvig(arr, k)
-print("Исходный массив: {arr}")
 print("Результат после сдвига на {k}: {result}")
