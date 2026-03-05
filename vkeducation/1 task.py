@@ -1,8 +1,5 @@
-
-print("Введите массив:")
 input_str = input()
 arr = list(map(int, input_str.split()))
-print("Введите число k:")
 k = int(input())
 def reverse(arr, left, right):
     while left < right:

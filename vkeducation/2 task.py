@@ -1,8 +1,6 @@
-print('Введите первый массив:')
 input_str = input()
 arr1 = list(map(int, input_str.split()))
 arr1.sort()
-print('Введите второй массив:')
 input_str = input()
 arr2 = list(map(int, input_str.split()))
 arr2.sort()
